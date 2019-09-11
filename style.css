@@ -1,0 +1,59 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1553106364-741d67315829?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+}
+
+div.title {
+    padding: 4rem;
+    display: flex;
+    text-align: center;
+}
+
+p.title-text {
+    opacity: 0.7;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: rgba(245, 167, 167, 0.8);
+    padding: 1rem;
+    flex: 1;
+}
+
+.title-header {
+    flex: 2;
+    font-family: 'Anton', sans-serif;
+    justify-content: space-around;
+    color: white;
+    margin: auto;
+    font-size: 6rem;
+}
+
+div.content {
+    font-size: 1.1rem;
+    background-color: rgba(170, 184, 255, 0.8);
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.content {
+    opacity: 0.8;
+    border-color: purple;
+    margin-left: 22%;
+    width: 50%;
+}
+.card1 {
+
+    height: 375px;
+    border: 1px solid black;
+    display: inline-block;
+    width: 300px;
+    box-shadow: 0 0 5px 2px rgba(206, 5, 5, 0.5)
+    }
+
+.card1:hover {
+    box-shadow: 0 0 5px 2px rgba(7, 240, 22, 0.8);
+}

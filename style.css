@@ -107,9 +107,19 @@ div.content {
 
 .card-text {
     text-align: center;
-    text-decoration: underline;
     font-weight: bold;
     margin-top: -10px;
     height: 55%;
     background-color: rgb(247, 242, 242);
+}
+
+a {
+    color: rgb(245, 89, 89);
+    text-decoration: underline;
+}
+
+.page1body {
+    background-image: url(https://images.unsplash.com/photo-1542850513-cb528bf20ddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover, contain;
 }

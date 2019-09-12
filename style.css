@@ -233,6 +233,8 @@ a {
     font-weight: bold;
     font-size: 1rem;
     position: sticky;
+    opacity: 0.7;
+    text-align: center;
 }
 
 .step1 {

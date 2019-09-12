@@ -241,7 +241,7 @@ a {
     background-color: white;
     width: 25%;
     box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-top: -36rem;
+    margin-top: -38.5rem;
     margin-left: 15rem;
 }
 .step2 {
@@ -249,7 +249,7 @@ a {
     width: 25%;
     box-shadow: 0 0 5px 4px rgb(223, 220, 81);
     margin-left: 45rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .step3 {
@@ -257,7 +257,7 @@ a {
     width: 25%;
     box-shadow: 0 0 5px 4px rgb(223, 220, 81);
     margin-left: 15rem;
-    margin-top: 3.5rem;
+    margin-top: 0.2rem;
 
 }
 .step4 {
@@ -265,7 +265,7 @@ a {
     width: 25%;
     box-shadow: 0 0 5px 4px rgb(223, 220, 81);
     margin-left: 45rem;
-    margin-top: 4rem;
+    margin-top: -1rem;
 
 }
 .step5 {
@@ -273,7 +273,7 @@ a {
     width: 25%;
     box-shadow: 0 0 5px 4px rgb(223, 220, 81);
     margin-left: 15rem;
-    margin-top: 4.3rem;
+    margin-top: 2rem;
 
 }
 .step6 {
@@ -281,5 +281,10 @@ a {
     width: 25%;
     box-shadow: 0 0 5px 4px rgb(223, 220, 81);
     margin-left: 45rem;
-    margin-top: 4rem;
+    margin-top: -1.5rem;
+}
+.step-title {
+    font-size: 1.4rem;
+    text-decoration: underline;
+    font-family: 'Allura', cursive;
 }

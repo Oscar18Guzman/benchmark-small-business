@@ -288,3 +288,9 @@ a {
     text-decoration: underline;
     font-family: 'Allura', cursive;
 }
+
+.index-button {
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+}

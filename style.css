@@ -91,7 +91,7 @@ div.content {
 
 .header-image {
     transform: scaleX(-1);
-    background-image: url(./cf2ce78e0d63d75.gif);
+    background-image: url(https://art.pixilart.com/cf2ce78e0d63d75.gif);
     background-size: 100% 100%;
     height: 48%;
 }
@@ -101,7 +101,7 @@ div.content {
     height: 48%;
 }
 .header-image3 {
-    background-image: url(./cf2ce78e0d63d75.gif);
+    background-image: url(https://art.pixilart.com/cf2ce78e0d63d75.gif);
     background-size: 100% 100%;
     height: 48%;
 }
@@ -208,4 +208,76 @@ a {
     background-image: url(https://images.unsplash.com/photo-1524429656589-6633a470097c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
     background-size: 100% 100%;
     height: 80%;
+}
+
+.body-image {
+    background-image: url(https://images.unsplash.com/photo-1527603870404-36a7ee13972e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+
+
+.timelinepic {
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+.timeline-img {
+    height: 800px;
+    width: 750px;
+}
+
+.steps {
+    font-weight: bold;
+    font-size: 1rem;
+    position: sticky;
+}
+
+.step1 {
+    background-color: white;
+    width: 25%;
+    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
+    margin-top: -36rem;
+    margin-left: 15rem;
+}
+.step2 {
+    background-color: white;
+    width: 25%;
+    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
+    margin-left: 45rem;
+    margin-top: 5rem;
+}
+
+.step3 {
+    background-color: white;
+    width: 25%;
+    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
+    margin-left: 15rem;
+    margin-top: 3.5rem;
+
+}
+.step4 {
+    background-color: white;
+    width: 25%;
+    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
+    margin-left: 45rem;
+    margin-top: 4rem;
+
+}
+.step5 {
+    background-color: white;
+    width: 25%;
+    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
+    margin-left: 15rem;
+    margin-top: 4.3rem;
+
+}
+.step6 {
+    background-color: white;
+    width: 25%;
+    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
+    margin-left: 45rem;
+    margin-top: 4rem;
 }

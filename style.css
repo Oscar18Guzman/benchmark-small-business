@@ -172,9 +172,17 @@ a {
 }
 
 .page2-body {
+    margin: auto;
     background-image: url(https://images.unsplash.com/photo-1513206057392-e565592cbaa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.card_layouts {
+    width: 80%;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
 }
 
 .card-text-page2 {

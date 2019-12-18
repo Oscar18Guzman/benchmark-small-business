@@ -1,16 +1,23 @@
-html {
+ html {
     font-family: sans-serif;
 }
 
-body {
+.index_body {
     background-image: url(https://images.unsplash.com/photo-1553106364-741d67315829?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
     background-repeat: no-repeat;
     background-size: cover, contain;
+    background-attachment: fixed;
+    
+}
+@media (min-width: 300px) {
+    body {
+        background-image: url(https://images.unsplash.com/photo-1553106364-741d67315829?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+        background-repeat: no-repeat;
+        background-size: cover, contain;
+    }
 }
 
 div.title {
-    padding: 4rem;
-    display: flex;
     text-align: center;
 }
 
@@ -19,8 +26,7 @@ p.title-text {
     font-size: 1.3rem;
     font-weight: bolder;
     background-color: rgba(245, 167, 167, 0.8);
-    padding: 1rem;
-    flex: 1;
+    padding: 10px;
 }
 
 .title-header {
@@ -28,150 +34,107 @@ p.title-text {
     font-family: 'Anton', sans-serif;
     justify-content: space-around;
     color: white;
-    margin: auto;
     font-size: 6rem;
+    border: black;
 }
 
-div.content {
-    font-size: 1.1rem;
-    background-color: rgba(170, 184, 255, 0.8);
-    padding: 2rem;
-    font-weight: bold;
-}
 
-.content {
-    opacity: 0.8;
-    border-color: purple;
-    margin-left: 22%;
-    width: 50%;
-}
-.card1 {
-    margin: 15px;
 
-    height: 330px;
-    border: 1px solid black;
-    display: inline-block;
-    width: 300px;
-    box-shadow: 0 0 5px 2px rgba(206, 5, 5, 0.5)
-    }
-
-.card1:hover {
-    box-shadow: 0 0 5px 2px rgba(7, 240, 22, 0.8);
-}
-.card2 {
-    margin: 15px;
-
-    height: 330px;
-    border: 1px solid black;
-    display: inline-block;
-    width: 300px;
-    box-shadow: 0 0 5px 2px rgba(206, 5, 5, 0.5)
-    }
-.card2:hover {
-        box-shadow: 0 0 5px 2px rgba(7, 240, 22, 0.8);
-    }
-.card3 {
-    margin: 15px;
-
-    height: 330px;
-    border: 1px solid black;
-    display: inline-block;
-    width: 300px;
-    box-shadow: 0 0 5px 2px rgba(206, 5, 5, 0.5)
-}
-.card3:hover {
-    box-shadow: 0 0 5px 2px rgba(7, 240, 22, 0.8);
-}
-
-.bottom-half {
-    justify-content: space-evenly;
-    display: flex;
+.cards-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
     
 }
 
-.header-image {
-    transform: scaleX(-1);
-    background-image: url(https://art.pixilart.com/cf2ce78e0d63d75.gif);
-    background-size: 100% 100%;
-    height: 48%;
-}
-.header-image2 {
-    background-image: url(./2148af628b44891.gif);
-    background-size: 100% 100%;
-    height: 48%;
-}
-.header-image3 {
-    background-image: url(https://art.pixilart.com/cf2ce78e0d63d75.gif);
-    background-size: 100% 100%;
-    height: 48%;
-}
-
-.card-text {
+.p1-card-container {
+    width: 175px;
+    height: 175px;
     text-align: center;
-    font-weight: bold;
-    margin-top: 0px;
-    height: 55%;
-    background-color: rgb(247, 242, 242);
 }
 
-a {
-    color: rgb(245, 89, 89);
-    text-decoration: underline;
+.card {
+    background-color: white;
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    border: 1.6px solid black;
 }
+.card2 {
+    display: inline-block;
+    border: 1.6px solid black;
+    height: 280px;
+
+}
+
+.card2:hover {
+    box-shadow: 0 0 5px 2px rgba(4, 137, 13, 0.8);
+}
+
+.card:hover {
+    box-shadow: 0 0 5px 2px rgba(7, 240, 22, 0.8);
+}
+
+.card-img {
+    width: 175px;
+    height: 175px;
+}
+.content {
+    opacity: 0.7;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: rgba(245, 167, 167, 0.8);
+    padding: 4px; 
+}
+
+
+
+
 
 .page1body {
     background-image: url(https://images.unsplash.com/photo-1542850513-cb528bf20ddc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.page1h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 4rem;
-    color: white;
-}
-.img {
-    height: 300px;
-    width: 375px;
-    box-shadow: 0 0 5px 2px rgb(255, 255, 255)
-}
+ 
 
-.page1-info {
-    display: flex;
-    color: black;
-    font-weight: bolder;
-    font-size: 1rem;
-}
-
-.page1-text {
+.page1-p {
+    font-size: 1.5rem;
     text-align: center;
     box-shadow: 0 0 5px 2px rgb(255, 255, 255);
-    opacity: 0.9;
-    margin-left: 35px;
-    width: 375px;
-    height: 50px;
+    opacity: 1;
     background-color: rgba(255, 255, 255, 0.849);
+    width: 40%;
+    height: auto;
 }
-.page1-text2 {
-    text-align: center;
-    box-shadow: 0 0 5px 2px rgb(255, 255, 255);
-    opacity: 0.9;
-    margin-left: 35px;
-    width: 375px;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.849);
-}
-.page1-text3 {
-    text-align: center;
-    box-shadow: 0 0 5px 2px rgb(255, 255, 255);
-    opacity: 0.9;
-    margin-left: 35px;
-    width: 375px;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.849);
+.gif {
+    width: 40%;
+    height: auto;
+    margin: 0px;
 }
 
-.page2-body {
+
+
+@media only screen and (max-width: 768px) {
+    .gif {
+        width: 95%;
+        height: auto;
+    }
+    .page1-p {
+        font-size: 1.5rem;
+        text-align: center;
+        box-shadow: 0 0 5px 2px rgb(255, 255, 255);
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.849);
+        width: 95%;
+        height: auto;
+
+    }
+}
+
+
+/*.page2-body {
     margin: auto;
     background-image: url(https://images.unsplash.com/photo-1513206057392-e565592cbaa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
     background-repeat: no-repeat;
@@ -181,16 +144,22 @@ a {
 .card_layouts {
     width: 80%;
     margin: auto;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
+    height: 44%;
+}
+
+.card-text {
+    padding: 12px;
+    height: 45%;
 }
 
 .card-text-page2 {
-    opacity: 0.8;
+    font-size: 1rem;
     text-align: center;
+    opacity: 0.8;
+    align-items: center;
     font-weight: bold;
     margin-top: -1px;
-    height: 20%;
+    height: 22%;
     background-color: rgb(255, 249, 167);
 }
 .header-image-page2 {
@@ -321,4 +290,4 @@ a {
     font-size: 1.5rem;
     background-color: rgb(255, 255, 255);
     color: black;
-}
+} */

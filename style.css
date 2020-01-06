@@ -150,9 +150,9 @@ p.title-text {
     background-attachment: fixed;
 }
 .page2-h {
-    text-align: center;
+    text-align: inherit;
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .container {
     display: flex;
@@ -188,106 +188,29 @@ p.title-text {
 
 
 
+
+
+
+
+
 .body-image {
     background-image: url(https://images.unsplash.com/photo-1527603870404-36a7ee13972e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
     background-repeat: no-repeat;
     background-size: cover;
-    position: sticky;
 }
 
 
-.timelinepic {
-    justify-content: space-evenly;
-    display: flex;
-    
-}
 
-.timeline-img {
-    height: 800px;
-    width: 750px;
-}
 
 .steps {
     font-weight: bold;
     font-size: 1rem;
     position: sticky;
     opacity: 0.7;
-    text-align: center;
+     text-align: center;
 }
 
 .step1 {
     background-color: white;
-    width: 25%;
-    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-top: -38.5rem;
-    margin-left: 15rem;
+    width: inherit;
 }
-.step2 {
-    background-color: white;
-    width: 25%;
-    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-left: 45rem;
-    margin-top: 2rem;
-}
-
-.step3 {
-    background-color: white;
-    width: 25%;
-    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-left: 15rem;
-    margin-top: 0.2rem;
-
-}
-.step4 {
-    background-color: white;
-    width: 25%;
-    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-left: 45rem;
-    margin-top: -1rem;
-
-}
-.step5 {
-    background-color: white;
-    width: 25%;
-    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-left: 15rem;
-    margin-top: 2rem;
-
-}
-.step6 {
-    background-color: white;
-    width: 25%;
-    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-left: 45rem;
-    margin-top: -1.5rem;
-}
-.step-title {
-    font-size: 1.4rem;
-    text-decoration: underline;
-    font-family: 'Allura', cursive;
-}
-
-.index-button {
-    opacity: 0.8;
-    box-shadow: 0 0 5px 4px rgb(252, 252, 250);
-    margin-left: 35rem;
-    font-size: 1.5rem;
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-.index-button2 {
-    opacity: 0.8;
-    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-left: 35rem;
-    font-size: 1.5rem;
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-.index-button3 {
-    opacity: 0.8;
-    box-shadow: 0 0 5px 4px rgb(223, 220, 81);
-    margin-left: 35rem;
-    font-size: 1.5rem;
-    background-color: rgb(255, 255, 255);
-    color: black;
-} */
